@@ -123,7 +123,7 @@ function Fruit(x, y) {
 }
 
 function detectCollision() {
-	var head = snake[0];
+	var head = snake[snake.length - 1];
 	//Vertical collision with an offset
 	if (head.y + 10 >= fruit.y && head.y <= fruit.y + 10) {
 		if (head.x >= fruit.x && head.x <= fruit.x + 10) {
