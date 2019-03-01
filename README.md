@@ -1,1 +1,3 @@
 # SnakeJS
+
+why not
